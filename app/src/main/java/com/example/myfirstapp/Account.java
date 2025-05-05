@@ -1,6 +1,15 @@
 package com.example.myfirstapp;
 
-public class Account {
+public class    Account {
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
+    }
+
+    private int id;
     private String accountName;
     private String username;
     private String password;
